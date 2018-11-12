@@ -1,0 +1,60 @@
+Log cleaned on  Mon Oct 15 16:19:17 MYT 2018
+
+=============== START PROCESSING ::  Mon Oct 15 16:19:17 MYT 2018  =============== 
+
+Oct 15, 2018 4:19:18 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Title
+Oct 15, 2018 4:19:18 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Version
+Oct 15, 2018 4:19:18 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Vendor
+Oct 15, 2018 4:19:18 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Title
+Oct 15, 2018 4:19:18 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Version
+Oct 15, 2018 4:19:18 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Vendor
+==> Reading configuration properties - /bv_data/bv_app/GoldAndSilverRates/config/gs_mq.cfg
+==> Establishing MQ connection...
+*********************************************************************
+mqHost =172.31.11.36
+mqPort=1415
+mqChannel=SYSTEM.DEF.SVRCONN
+mqQmananager=M2US11
+mqReqQ=M2U.MQS3.REQ.FTP.10
+mqTout=5
+*********************************************************************
+==> Establishing database connection
+  ==> Loading JDBC driver ....
+==> Connected to drivername :oracle.jdbc.driver.OracleDriver
+==> Connected to url :jdbc:oracle:thin:@172.31.11.50:1521:ibd
+==> Connected to username :bvuat1
+==> Connected to :jdbc:oracle:thin:@172.31.11.50:1521:ibd
+==> Retrieving MQ message .....
+MQJE001: Completion Code 2, Reason 2033
+*** There are NO Messages in MQ to Retrive :[M2U.MQS3.REQ.FTP.10]MQJE001: Completion Code 2, Reason 2033
+FINALLY closing all open connections
+Closing database connection
+Closing MQ connection
+************************** Loading BV files *******************************************
+Loading BV Content from :/bv/bv1to1/bin/bv_load_content -s WebBank -f goldAndSilverRates.dat -d
+Loading BV Content
+[info] :: store id is 91
+[info] :: content type for PRECIOUSMETAL_PRICE is 1034
+[info] :: column: METAL_CODE position in attribute list: 1
+[info] :: column: METAL_DESC position in attribute list: 7
+[info] :: column: METAL_BUYINGPRICE position in attribute list: 8
+[info] :: column: METAL_SELLINGPRICE position in attribute list: 9
+[info] :: column: METAL_MIDPRICE position in attribute list: 10
+[info] :: column: METAL_REVEALPRICE position in attribute list: 11
+[info] :: column: LAST_UPDATED_DATE position in attribute list: 14
+[info] :: column: LAST_UPDATED_TIME position in attribute list: 15
+[info] :: The column name METAL_HALF_BUYINGPRICE was not found in the database
+[info] :: Unknown attribute METAL_HALF_BUYINGPRICE!
+[info] :: Error encountered on line 2
+[info] :: 
+[info] :: Error: bad attribute list, cannot continue!
+Exit value for process [bv_content]: 1
+*** GoldAndSilverMQTrigger Process completed :15 Oct 2018 04:19:18 MYT
+
+===============  END PROCESSING  ::  Mon Oct 15 16:19:28 MYT 2018  =============== 

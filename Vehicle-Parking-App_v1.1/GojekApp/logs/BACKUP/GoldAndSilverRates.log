@@ -1,0 +1,138 @@
+
+=============== START PROCESSING ::  Thu Oct 25 11:00:22 MYT 2018  =============== 
+
+Oct 25, 2018 11:00:23 AM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Title
+Oct 25, 2018 11:00:23 AM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Version
+Oct 25, 2018 11:00:23 AM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Vendor
+Oct 25, 2018 11:00:23 AM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Title
+Oct 25, 2018 11:00:23 AM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Version
+Oct 25, 2018 11:00:23 AM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Vendor
+==> Reading configuration properties - /bv_data/bv_app/GoldAndSilverRates/config/gs_mq.cfg
+==> Establishing MQ connection...
+*********************************************************************
+mqHost =172.29.75.10
+mqPort=2414
+mqChannel=SYSTEM.DEF.SVRCONN
+mqQmananager=M2US11
+mqReqQ=M2U.MQS3.REQ.FTP.10
+mqTout=5
+*********************************************************************
+==> Establishing database connection
+  ==> Loading JDBC driver ....
+==> Connected to drivername :oracle.jdbc.driver.OracleDriver
+==> Connected to url :jdbc:oracle:thin:@172.31.11.50:1521:ibd
+==> Connected to username :bvuat1
+==> Connected to :jdbc:oracle:thin:@172.31.11.50:1521:ibd
+==> Retrieving MQ message .....
+MQJE001: Completion Code 2, Reason 2033
+*** There are NO Messages in MQ to Retrive :[M2U.MQS3.REQ.FTP.10]MQJE001: Completion Code 2, Reason 2033
+FINALLY closing all open connections
+Closing database connection
+Closing MQ connection
+*** GoldAndSilverMQTrigger Process completed :25 Oct 2018 11:00:23 MYT
+
+===============  END PROCESSING  ::  Thu Oct 25 11:00:30 MYT 2018  =============== 
+
+=============== START PROCESSING ::  Thu Oct 25 12:20:51 MYT 2018  =============== 
+
+Oct 25, 2018 12:20:53 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Title.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+Oct 25, 2018 12:20:53 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Version.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+Oct 25, 2018 12:20:53 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Vendor.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+Oct 25, 2018 12:20:53 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Title.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+Oct 25, 2018 12:20:53 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Version.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+Oct 25, 2018 12:20:53 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Vendor.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+==> Reading configuration properties - /bv_data/bv_app/GoldAndSilverRates/config/gs_mq.cfg
+==> Establishing MQ connection...
+*********************************************************************
+mqHost =172.29.75.10
+mqPort=2414
+mqChannel=SYSTEM.DEF.SVRCONN
+mqQmananager=M2US11
+mqReqQ=M2U.MQS3.REQ.FTP.10
+mqTout=5
+*********************************************************************
+==> Establishing database connection
+  ==> Loading JDBC driver ....
+==> Connected to drivername :oracle.jdbc.driver.OracleDriver
+==> Connected to url :jdbc:oracle:thin:@172.31.11.50:1521:ibd
+==> Connected to username :bvuat1
+==> Connected to :jdbc:oracle:thin:@172.31.11.50:1521:ibd
+==> Retrieving MQ message .....
+MQJE001: Completion Code 2, Reason 2033
+*** There are NO Messages in MQ to Retrive :[M2U.MQS3.REQ.FTP.10]MQJE001: Completion Code 2, Reason 2033
+FINALLY closing all open connections
+Closing database connection
+Closing MQ connection
+*** GoldAndSilverMQTrigger Process completed :25 Oct 2018 12:20:53 MYT
+
+===============  END PROCESSING  ::  Thu Oct 25 12:21:00 MYT 2018  =============== 
+
+=============== START PROCESSING ::  Thu Oct 25 17:36:06 MYT 2018  =============== 
+
+Oct 25, 2018 5:36:07 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Title
+Oct 25, 2018 5:36:07 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Version
+Oct 25, 2018 5:36:07 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Vendor
+Oct 25, 2018 5:36:07 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Title
+Oct 25, 2018 5:36:07 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Version
+Oct 25, 2018 5:36:07 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Implementation-Vendor
+==> Reading configuration properties - /bv_data/bv_app/GoldAndSilverRates/config/gs_mq.cfg
+==> Establishing MQ connection...
+*********************************************************************
+mqHost =172.29.75.10
+mqPort=2414
+mqChannel=SYSTEM.DEF.SVRCONN
+mqQmananager=M2US11
+mqReqQ=M2U.MQS3.REQ.FTP.10
+mqTout=5
+*********************************************************************
+==> Establishing database connection
+  ==> Loading JDBC driver ....
+==> Connected to drivername :oracle.jdbc.driver.OracleDriver
+==> Connected to url :jdbc:oracle:thin:@172.31.11.50:1521:ibd
+==> Connected to username :bvuat1
+==> Connected to :jdbc:oracle:thin:@172.31.11.50:1521:ibd
+==> Retrieving MQ message .....
+MQJE001: Completion Code 2, Reason 2033
+*** There are NO Messages in MQ to Retrive :[M2U.MQS3.REQ.FTP.10]MQJE001: Completion Code 2, Reason 2033
+FINALLY closing all open connections
+Closing database connection
+Closing MQ connection
+*** GoldAndSilverMQTrigger Process completed :25 Oct 2018 05:36:07 MYT
+
+===============  END PROCESSING  ::  Thu Oct 25 17:36:14 MYT 2018  =============== 
